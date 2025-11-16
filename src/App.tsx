@@ -1,16 +1,16 @@
-import Footer from "./core/Footer";
-import Navbar from "./core/Navbar";
+import { Route, Routes } from "react-router-dom";
+import MainLayout from "./layout/MainLayout";
 import Home from "./pages/Home";
+import Login from "./auth/Login";
 
 function App() {
   return (
-    <div className="flex flex-col min-h-screen">
-      <Navbar />
-      <main className="flex-1">
-        <Home />
-      </main>
-      <Footer />
-    </div>
+    <Routes>
+      <Route path="/" element={<MainLayout />}>
+        <Route index element={<Home />} />
+      </Route>
+      <Route path="/login" element={<Login />} />
+    </Routes>
   );
 }
 

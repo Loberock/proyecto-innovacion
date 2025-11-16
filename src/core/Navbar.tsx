@@ -25,9 +25,9 @@ function Navbar() {
         </ul>
 
         <div className="font-medium">
-          <h4 className="text-white">
+          <a href="/login" className="text-white">
             Hola,<span className="text-[#6A9DE4]"> Usuario</span>
-          </h4>
+          </a>
         </div>
       </div>
     </nav>
