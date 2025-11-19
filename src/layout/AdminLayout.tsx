@@ -2,7 +2,7 @@ import { Outlet } from "react-router-dom";
 import Navbar from "../core/Navbar";
 import Footer from "../core/Footer";
 
-function MainLayout() {
+function AdminLayout() {
   return (
     <div className="flex flex-col min-h-screen">
       <Navbar />
@@ -14,4 +14,4 @@ function MainLayout() {
   );
 }
 
-export default MainLayout;
+export default AdminLayout;

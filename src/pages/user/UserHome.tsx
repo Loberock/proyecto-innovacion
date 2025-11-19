@@ -1,4 +1,4 @@
-function Home() {
+function UserHome() {
   return (
     <section className="min-h-dvh px-5 py-20 bg-[#F9FAFB]">
       <div className="max-w-7xl mx-auto flex flex-col items-center gap-20">
@@ -258,4 +258,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default UserHome;
