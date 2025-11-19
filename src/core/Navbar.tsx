@@ -4,7 +4,13 @@ function Navbar() {
   return (
     <nav className="bg-black w-full h-20 px-5 flex items-center">
       <div className="flex items-center justify-between max-w-7xl mx-auto w-full">
-        <img src={Logo} alt="Logo de Infinity Style" className="w-32 h-auto" />
+        <a href="/">
+          <img
+            src={Logo}
+            alt="Logo de Infinity Style"
+            className="w-32 h-auto"
+          />
+        </a>
 
         <ul className="text-[#6A9DE4] flex items-center justify-center gap-5 font-medium">
           <li className="hover:scale-105 transition-all duration-300">
